@@ -1,0 +1,7 @@
+-- database: c:\Users\user\Desktop\M4L1\movie.db
+
+SELECT * FROM movies;
+SELECT title, release_date, vote_average
+FROM movies 
+WHERE release_date > '2016-02' AND release_date < '2017-03' AND vote_average > 5
+ORDER BY vote_average

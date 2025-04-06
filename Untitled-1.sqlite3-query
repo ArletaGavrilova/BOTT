@@ -1,0 +1,4 @@
+-- database: c:\Users\user\Desktop\M4L1\movie.db
+
+SELECT title, name FROM movies
+INNER JOIN directors ON movies.director_id = directors_id
